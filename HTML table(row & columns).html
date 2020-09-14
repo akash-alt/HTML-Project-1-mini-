@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+<HTML>
+<head>
+    <meta charset="UTF-8">
+    <title>Table Introduction</title>
+
+    <style>
+        table {
+            width: 700px;
+            background-color: lightblue;
+            margin-top: 24px;
+            margin-left: 24px;
+        }
+        table , td,th {
+            border: 1px solid black ;
+            border-collapse: collapse;
+            font-size: 24px;
+        }
+
+        td , th {
+            padding: 16px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>My Secret Time-table</caption>
+        <tr>
+            <td rowspan="6">Hours</td> <!--if you want to add hours column -->
+            <th>Mon</th>
+            <th>Tue</th>
+            <th>Wed</th>
+            <th>Thu</th>
+            <th>Fri</th>
+        </tr>
+        <tr>
+           <td>Physics</td> 
+           <td>Chamestry</td>
+           <td>Maths</td>
+           <td>Social Science</td>
+           <td>Machenical Vibration</td>
+        </tr>
+        <tr>
+            <td>English</td> 
+            <td>Chamestry</td>
+            <td>Maths</td>
+            <td>Social Science</td>
+            <td>Machenical Vibration</td>
+         </tr>
+         <tr>
+             <!--here we want to add lunch break in the mid column-->
+            <td colspan="5" style="text-align: center;">
+                Lunch Break
+            </td>
+        </tr>
+         <tr>
+            <td>Automotive chasis</td> 
+            <td>Chamestry</td>
+            <td>Maths</td>
+            <td>Social Science</td>
+            <td>Machenical Vibration</td>
+         </tr>
+         <tr>
+            <td>Automotive chasis</td> 
+            <td>Chamestry</td>
+            <td>Maths</td>
+            <td>Social Science</td>
+            <td>Machenical Vibration</td>
+         </tr>
+         
+         </tr>
+    </table>
+</body>
+</HTML>
